@@ -3,8 +3,8 @@
 
 ## Quick Start
 First you should enable css modules in webpack.config.js 
-  * Install dependencies
-  npm install
+  * Install dependencies:
+    npm install
   
-  * Run the app
-  npm start
+  * Run the app:
+    npm start
