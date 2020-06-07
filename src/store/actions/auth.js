@@ -47,9 +47,9 @@ export const auth = (email, password, isSignup) => {
     }
     return dispatch => {
         dispatch(authStart());
-        let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBt-KcjGfaCQ_y8jjvtnmab5sdO4CMhPdI';
+        let url = 'Sign In URL for authenrication generated in Firebase';
         if(!isSignup){
-            url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBt-KcjGfaCQ_y8jjvtnmab5sdO4CMhPdI';
+            url = 'Sign up URL for authenrication generated in Firebase';
         }
 
         axios.post(url, authData)
