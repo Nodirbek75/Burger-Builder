@@ -30,7 +30,7 @@ const fetchIngredientsFail = () => {
 
 export const initIngredients = () => {
     return dispatch => {
-        axios.get( 'https://burger-builder-c2f9c.firebaseio.com/ingredients.json' )
+        axios.get( 'Use your database url here' ) // USE YOUR DATABSE URL
             .then( response => {
                 dispatch(setIngredients(response.data));
             } )
